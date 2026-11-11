@@ -1,0 +1,46 @@
+{
+  "id": "carrier-performance-review",
+  "name": "Carrier performance review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The shipping lead gets a lane-by-lane comparison of carriers from the delivery export and the freight charges: on-time delivery, damage, tracking gaps and cost, each with the shipments behind it. A person decides whether to raise issues or change carrier.",
+  "directory": "https://fullypowered.ai/capabilities/carrier-performance-review/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/procurement-and-suppliers"
+  ],
+  "industries": [
+    "industries/logistics-and-trade",
+    "industries/ecommerce-and-retail",
+    "industries/manufacturing"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "supplier-performance-scorecard",
+    "product-landed-cost-worksheet"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of supply chain and inventory work, which informed the method, the default column headers, the rules for comparing like with like and the worked example."
+    }
+  ]
+}

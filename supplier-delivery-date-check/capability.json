@@ -1,0 +1,47 @@
+{
+  "id": "supplier-delivery-date-check",
+  "name": "Supplier delivery date check",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The purchasing or operations person gets one comparison from the open purchase orders and the supplier replies: promised and revised dates side by side, the orders each change puts at risk, and the follow-ups still unanswered. No supplier is contacted.",
+  "directory": "https://fullypowered.ai/capabilities/supplier-delivery-date-check/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/procurement-and-suppliers"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/ecommerce-and-retail",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "supplier-risk-alert-brief",
+    "supplier-performance-scorecard",
+    "inventory-reorder-plan"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of supply chain and inventory work: open purchase order, supplier reply, follow-up and dependent-order exports with set column headers that stop on a mismatch; three grades of supplier reply, of which only a written confirmation or a call record fixes a date; the date relied on, the days moved and the past-due count; each dependent order tested against its ship-by date with the receiving days added; and the lists of unanswered follow-ups and of lines that need one."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "demand-and-supply-review",
+  "name": "Demand and supply review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The operations lead gets one monthly review from the demand plan, confirmed supply and stock: where confirmed and likely demand outrun supply, what that does to inventory, and the decision each function head has to make. Sales ambition stays separate and nothing is forecast beyond your figures.",
+  "directory": "https://fullypowered.ai/capabilities/demand-and-supply-review/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "inventory-reorder-plan",
+    "operations-kpi-scorecard",
+    "slow-moving-stock-and-markdown-plan"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of supply chain and inventory work: demand split into confirmed orders, supported units with a stated basis and sales ambition; only confirmed supply counted; a running balance per item and period; shortfall, safety-stock and excess tests; capacity room; and one decision per function head, with nothing recommended."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "order-size-comparison",
+  "name": "Order size comparison",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a supplier offers a bigger discounted order, the inventory planner gets each quantity costed the same way: yearly cost, cash tied up, months of cover and storage fit. The planner chooses the quantity; nothing is ordered.",
+  "directory": "https://fullypowered.ai/capabilities/order-size-comparison/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/procurement-and-suppliers"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/manufacturing",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "inventory-reorder-plan",
+    "vendor-quote-comparison",
+    "slow-moving-stock-and-markdown-plan"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own writing from its published map of supply chain and inventory work: the order-size comparison, its offer and demand-history exports with set column headers, the standard yearly cost of each quantity from goods, ordering and holding, written in its own words, cash tied up on arrival, months of cover and cover under lower demand, the storage and shelf-life checks, the holding rate at which a larger order stops saving, and the rule that seasonal items are never costed on a flat average without a question."
+    }
+  ]
+}

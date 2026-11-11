@@ -1,0 +1,46 @@
+{
+  "id": "kit-component-availability-check",
+  "name": "Kit component availability check",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The stock or online-store lead gets every kit beside the quantity actually sellable, the component that limits it, the stock records that disagree and the listings that promise more than can be built. Nothing is changed until a person decides.",
+  "directory": "https://fullypowered.ai/capabilities/kit-component-availability-check/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands",
+    "industries/hardware-and-physical-technology"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "stock-count-reconciliation",
+    "inventory-reorder-plan",
+    "slow-moving-stock-and-markdown-plan"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of supply chain and inventory work: default export headers for the kit definitions, the stock export, a second stock record and the listing export, with a stop on any mismatch; a sellable quantity worked out location by location from what is on hand less what is reserved; the limiting component named for each location, with ties listed; a lower figure relied on wherever two stock records disagree; listings compared with that figure; components shared by several kits checked against the stock they draw on together; statuses of unresolved, conflict, zero and sellable; and a list of listings for a person to correct, each with a blank approval line."
+    }
+  ]
+}

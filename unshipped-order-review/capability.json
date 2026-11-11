@@ -1,0 +1,47 @@
+{
+  "id": "unshipped-order-review",
+  "name": "Unshipped order review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The fulfilment or customer-service lead gets one aged list of the orders not yet sent, whole or in part: how old each is, what is holding it, who owns the next step, and which orders have none. Nothing is released, moved or sent.",
+  "directory": "https://fullypowered.ai/capabilities/unshipped-order-review/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands",
+    "industries/manufacturing"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "stale-ticket-sweep",
+    "supplier-delivery-date-check",
+    "inventory-reorder-plan"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of supply chain and inventory work: order, order-line and hold exports with set column headers that stop on a mismatch; shipped state worked out from the lines, never from a status word; age in calendar days in four bands with the oldest first; holds kept in force until a person releases them; a next step counts only with an owner; a youngest-band grace for orders with no hold; part-shipped orders checked for days since the last shipment; and a question for the fulfilment lead on each order that needs a decision."
+    }
+  ]
+}
