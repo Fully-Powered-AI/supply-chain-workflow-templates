@@ -2,11 +2,11 @@
 
 The fulfilment or customer-service lead gets one aged list of the orders not yet sent, whole or in part: how old each is, what is holding it, who owns the next step, and which orders have none. Nothing is released, moved or sent.
 
-*Capability template · Supply chain and inventory · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/unshipped-order-review/)*
+*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/unshipped-order-review/)*
 
 ## The outcome
 
-Every morning there are orders that have not gone out, and most are fine: they came in an hour ago. The few that matter are the ones that have sat for days with nobody clearly responsible. This capability puts the whole set on one page, oldest first, so those few cannot hide among the rest.
+Every morning there are orders that have not gone out, and most are fine: they came in an hour ago. The few that matter are the ones that have sat for days with nobody clearly responsible. This workflow template puts the whole set on one page, oldest first, so those few cannot hide among the rest.
 
 Each order shows its age, the date it was promised, whether it is wholly unshipped or part-shipped and what is still to go, the hold on it and how long that hold has stood, and the next step with the name of whoever owns it. An order with a hold but no next step, or with no hold and no explanation, is pulled out into its own list.
 
@@ -18,7 +18,7 @@ You then decide the priorities, who takes over, and what each customer is told. 
 
 A fulfilment lead, a warehouse or operations manager, or a customer-service lead runs it at the start of each working day, or whenever the daily order review is due. A coordinator can prepare it from the exports.
 
-The fulfilment lead sets the priorities and authorises any release or reassignment. The customer-service lead decides what customers hear. The capability changes no order, lifts no hold and contacts nobody.
+The fulfilment lead sets the priorities and authorises any release or reassignment. The customer-service lead decides what customers hear. The workflow template changes no order, lifts no hold and contacts nobody.
 
 ## What they supply
 
@@ -35,7 +35,7 @@ One page in a fixed order: a summary and data checks, the aged list with every o
 
 Every age and count can be checked with a calendar and the exports. Each order says which hold and which items it comes from.
 
-Nothing is sent. The capability releases no order, reassigns nothing and writes to no customer.
+Nothing is sent. The workflow template releases no order, reassigns nothing and writes to no customer.
 
 See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
@@ -49,7 +49,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/): when holds live in notes and memory rather than in a list.
 - [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when there are more open orders than anyone can check by eye each morning.
 
-It looks at orders, not support tickets; the review of old tickets is [stale ticket sweep](https://fullypowered.ai/capabilities/stale-ticket-sweep/). It does not judge a supplier's date, which is [supplier delivery date check](https://fullypowered.ai/capabilities/supplier-delivery-date-check/). Deciding what to reorder is [inventory reorder plan](https://fullypowered.ai/capabilities/inventory-reorder-plan/).
+It looks at orders, not support tickets; the review of old tickets is [stale ticket sweep](https://fullypowered.ai/workflows/stale-ticket-sweep/). It does not judge a supplier's date, which is [supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/). Deciding what to reorder is [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/).
 
 ## What has to change for your company
 
@@ -62,7 +62,7 @@ It looks at orders, not support tickets; the review of old tickets is [stale tic
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude; the record is published with it. It has not yet been tested in a client environment.
+Fully Powered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude; the record is published with it. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on a past morning's orders that your fulfilment lead remembers well, plus hard cases written in advance with their expected results: a renamed column, an order marked shipped with an open line, an order with no lines, a hold with no next step, a hold older than the limit. The lead checks every age and every hold against the exports before anyone acts.
 
@@ -75,11 +75,11 @@ Testing in your environment means running it on a past morning's orders that you
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -89,12 +89,12 @@ Testing in your environment means running it on a past morning's orders that you
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Stale ticket sweep](https://fullypowered.ai/capabilities/stale-ticket-sweep/)
+- [Stale ticket sweep](https://fullypowered.ai/workflow templates/stale-ticket-sweep/)
 - [Supplier delivery date check](../supplier-delivery-date-check/)
-- [Inventory reorder plan](https://fullypowered.ai/capabilities/inventory-reorder-plan/)
+- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

@@ -1,10 +1,10 @@
 {
   "id": "demand-and-supply-review",
   "name": "Demand and supply review",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The operations lead gets one monthly review from the demand plan, confirmed supply and stock: where confirmed and likely demand outrun supply, what that does to inventory, and the decision each function head has to make. Sales ambition stays separate and nothing is forecast beyond your figures.",
-  "directory": "https://fullypowered.ai/capabilities/demand-and-supply-review/",
+  "directory": "https://fullypowered.ai/workflow templates/demand-and-supply-review/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory",

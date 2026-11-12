@@ -1,10 +1,10 @@
 {
   "id": "unshipped-order-review",
   "name": "Unshipped order review",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The fulfilment or customer-service lead gets one aged list of the orders not yet sent, whole or in part: how old each is, what is holding it, who owns the next step, and which orders have none. Nothing is released, moved or sent.",
-  "directory": "https://fullypowered.ai/capabilities/unshipped-order-review/",
+  "directory": "https://fullypowered.ai/workflow templates/unshipped-order-review/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory",

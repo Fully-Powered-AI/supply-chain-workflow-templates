@@ -1,6 +1,6 @@
 # Carrier performance review
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -10,14 +10,14 @@ Compare carriers lane by lane from a period's shipment export and freight charge
 
 Use it when the agreed carrier review is due, once the period's deliveries are recorded and the carriers' charges have been entered.
 
-Do not use it to check an invoice against agreed rates (that needs the rates, which this capability does not read), to rate the suppliers of goods (see supplier performance scorecard), to work out a product's full landed cost (see product landed cost worksheet), or to write to a carrier. Do not use it when the shipment export is missing or the headers do not match.
+Do not use it to check an invoice against agreed rates (that needs the rates, which this workflow template does not read), to rate the suppliers of goods (see supplier performance scorecard), to work out a product's full landed cost (see product landed cost worksheet), or to write to a carrier. Do not use it when the shipment export is missing or the headers do not match.
 
 ## Roles
 
 - **Runs it:** the logistics planner, shipping lead or an operations analyst.
 - **Reviews and decides:** the shipping lead, who decides what to raise with a carrier and whether to change carrier on a lane.
 - **Approves any commitment to a carrier:** procurement, as the company sets it.
-- **Raises points with a carrier:** the person who owns that relationship, outside this capability.
+- **Raises points with a carrier:** the person who owns that relationship, outside this workflow template.
 
 ## Inputs
 

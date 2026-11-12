@@ -1,10 +1,10 @@
 {
   "id": "kit-component-availability-check",
   "name": "Kit component availability check",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The stock or online-store lead gets every kit beside the quantity actually sellable, the component that limits it, the stock records that disagree and the listings that promise more than can be built. Nothing is changed until a person decides.",
-  "directory": "https://fullypowered.ai/capabilities/kit-component-availability-check/",
+  "directory": "https://fullypowered.ai/workflow templates/kit-component-availability-check/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory"

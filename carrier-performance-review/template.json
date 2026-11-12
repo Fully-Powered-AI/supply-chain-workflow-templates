@@ -1,10 +1,10 @@
 {
   "id": "carrier-performance-review",
   "name": "Carrier performance review",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The shipping lead gets a lane-by-lane comparison of carriers from the delivery export and the freight charges: on-time delivery, damage, tracking gaps and cost, each with the shipments behind it. A person decides whether to raise issues or change carrier.",
-  "directory": "https://fullypowered.ai/capabilities/carrier-performance-review/",
+  "directory": "https://fullypowered.ai/workflow templates/carrier-performance-review/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory",

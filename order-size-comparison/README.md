@@ -2,11 +2,11 @@
 
 When a supplier offers a bigger discounted order, the inventory planner gets each quantity costed the same way: yearly cost, cash tied up, months of cover and storage fit. The planner chooses the quantity; nothing is ordered.
 
-*Capability template · Supply chain and inventory · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/order-size-comparison/)*
+*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/order-size-comparison/)*
 
 ## The outcome
 
-A discount on a larger order is easy to like and hard to judge. The unit price falls, but the stock sits on the shelf longer, the money is gone from the bank sooner, and the warehouse may not have room. This capability puts every quantity the supplier offered side by side, costed the same way, so the choice rests on figures rather than on the size of the discount.
+A discount on a larger order is easy to like and hard to judge. The unit price falls, but the stock sits on the shelf longer, the money is gone from the bank sooner, and the warehouse may not have room. This workflow template puts every quantity the supplier offered side by side, costed the same way, so the choice rests on figures rather than on the size of the discount.
 
 For each quantity the comparison shows what a year of that item would cost: the goods, the cost of placing and receiving each order including freight, and the cost of holding the stock. It shows the cash tied up the day the order arrives, how many months the order lasts, how long it would last if demand dropped, and whether it fits the storage you have. Against your standard order it shows the yearly saving, the extra cash that saving needs, and how high your holding cost would have to climb before the bigger order stopped paying.
 
@@ -16,7 +16,7 @@ Nothing is hidden in an average. Every line has its arithmetic written out, an i
 
 The inventory planner or buyer starts it whenever a supplier puts forward a larger order, a new minimum quantity or a price break on an item the company expects to keep buying. It is run for one item from one supplier at a time; a supplier's offer on several items is several runs.
 
-The planner reads the comparison and selects a quantity. Procurement approves the purchase, and whoever places orders places it. The capability prepares the comparison and does none of those steps.
+The planner reads the comparison and selects a quantity. Procurement approves the purchase, and whoever places orders places it. The workflow template prepares the comparison and does none of those steps.
 
 ## What they supply
 
@@ -46,7 +46,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when volumes have grown into the supplier's next price break and cash still matters.
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/): when a standard order size set years ago has never been tested against the offers now available.
 
-It answers a different question from [inventory reorder plan](https://fullypowered.ai/capabilities/inventory-reorder-plan/), which decides when to reorder and how much against current stock and lead times. It also differs from [vendor quote comparison](https://fullypowered.ai/capabilities/vendor-quote-comparison/), which chooses between suppliers; here the supplier is fixed and the quantity is the question. Stock that a large order leaves sitting is dealt with in [slow-moving stock and markdown plan](https://fullypowered.ai/capabilities/slow-moving-stock-and-markdown-plan/).
+It answers a different question from [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/), which decides when to reorder and how much against current stock and lead times. It also differs from [vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/), which chooses between suppliers; here the supplier is fixed and the quantity is the question. Stock that a large order leaves sitting is dealt with in [slow-moving stock and markdown plan](https://fullypowered.ai/workflows/slow-moving-stock-and-markdown-plan/).
 
 ## What has to change for your company
 
@@ -60,9 +60,9 @@ It answers a different question from [inventory reorder plan](https://fullypower
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words. It was editorially reviewed on 10 November 2026, and every figure in its invented example was recomputed by hand. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template. It lists the edits made afterward, which have not been run again: the example's shelf-life setting now reads "not given", the example's closing lines were brought into line with the output format, the example now shows the lower-demand cover figure for every option and not only the standard one, and clarifications were added to the procedure and the output format (re-annualizing demand after a stock-out month, stock on hand at shelf-life end, when a listed deadline also needs a question, using the planner's expected months in the cover lines, what the Summary line counts and says when no storage limit is given, how the Ordering line is written when orders a year is not exact, the currency of the saving per 1,000 of extra cash, and the rounding of cost per unit). It has not yet been tested in a client environment, and it has not been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026, and every figure in its invented example was recomputed by hand. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template. It lists the edits made afterward, which have not been run again: the example's shelf-life setting now reads "not given", the example's closing lines were brought into line with the output format, the example now shows the lower-demand cover figure for every option and not only the standard one, and clarifications were added to the procedure and the output format (re-annualizing demand after a stock-out month, stock on hand at shelf-life end, when a listed deadline also needs a question, using the planner's expected months in the cover lines, what the Summary line counts and says when no storage limit is given, how the Ordering line is written when orders a year is not exact, the currency of the saving per 1,000 of extra cash, and the rounding of cost per unit). It has not yet been tested in a client environment, and it has not been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past supplier offers whose outcome you already know, plus cases written in advance with the expected behavior: a renamed column, an offer that does not fit the warehouse, a seasonal item, a short demand history, an item with a shelf life. The planner checks every figure against the offer and the exports before a quantity is selected. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record.
+Testing in your environment means running it on two or three past supplier offers whose outcome you already know, plus cases written in advance with the expected behavior: a renamed column, an offer that does not fit the warehouse, a seasonal item, a short demand history, an item with a shelf life. The planner checks every figure against the offer and the exports before a quantity is selected. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -73,11 +73,11 @@ Testing in your environment means running it on two or three past supplier offer
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -87,12 +87,12 @@ Testing in your environment means running it on two or three past supplier offer
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Inventory reorder plan](https://fullypowered.ai/capabilities/inventory-reorder-plan/)
-- [Vendor quote comparison](https://fullypowered.ai/capabilities/vendor-quote-comparison/)
-- [Slow-moving stock and markdown plan](https://fullypowered.ai/capabilities/slow-moving-stock-and-markdown-plan/)
+- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
+- [Vendor quote comparison](https://fullypowered.ai/workflow templates/vendor-quote-comparison/)
+- [Slow-moving stock and markdown plan](https://fullypowered.ai/workflow templates/slow-moving-stock-and-markdown-plan/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

@@ -1,10 +1,10 @@
 {
   "id": "order-size-comparison",
   "name": "Order size comparison",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a supplier offers a bigger discounted order, the inventory planner gets each quantity costed the same way: yearly cost, cash tied up, months of cover and storage fit. The planner chooses the quantity; nothing is ordered.",
-  "directory": "https://fullypowered.ai/capabilities/order-size-comparison/",
+  "directory": "https://fullypowered.ai/workflow templates/order-size-comparison/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory",
