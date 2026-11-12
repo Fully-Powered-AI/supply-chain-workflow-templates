@@ -2,7 +2,7 @@
 
 The fulfilment or customer-service lead gets one aged list of the orders not yet sent, whole or in part: how old each is, what is holding it, who owns the next step, and which orders have none. Nothing is released, moved or sent.
 
-*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/unshipped-order-review/)*
+*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/unshipped-order-review/)*
 
 ## The outcome
 
@@ -91,9 +91,9 @@ Testing in your environment means running it on a past morning's orders that you
 
 ## Related workflow templates
 
-- [Stale ticket sweep](https://fullypowered.ai/workflow templates/stale-ticket-sweep/)
+- [Stale ticket sweep](https://fullypowered.ai/workflows/stale-ticket-sweep/)
 - [Supplier delivery date check](../supplier-delivery-date-check/)
-- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
 
 ## Make it yours
 

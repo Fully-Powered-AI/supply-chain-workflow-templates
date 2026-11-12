@@ -2,7 +2,7 @@
 
 The stock or online-store lead gets every kit beside the quantity actually sellable, the component that limits it, the stock records that disagree and the listings that promise more than can be built. Nothing is changed until a person decides.
 
-*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/kit-component-availability-check/)*
+*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/kit-component-availability-check/)*
 
 ## The outcome
 
@@ -85,9 +85,9 @@ Testing in your environment means running it on one or two kits your stock lead 
 
 ## Related workflow templates
 
-- [Stock count reconciliation](https://fullypowered.ai/workflow templates/stock-count-reconciliation/)
-- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
-- [Slow-moving stock and markdown plan](https://fullypowered.ai/workflow templates/slow-moving-stock-and-markdown-plan/)
+- [Stock count reconciliation](https://fullypowered.ai/workflows/stock-count-reconciliation/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
+- [Slow-moving stock and markdown plan](https://fullypowered.ai/workflows/slow-moving-stock-and-markdown-plan/)
 
 ## Make it yours
 

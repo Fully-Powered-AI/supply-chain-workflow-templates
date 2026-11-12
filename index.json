@@ -9,7 +9,7 @@
       "version": "0.1.0",
       "summary": "The shipping lead gets a lane-by-lane comparison of carriers from the delivery export and the freight charges: on-time delivery, damage, tracking gaps and cost, each with the shipments behind it. A person decides whether to raise issues or change carrier.",
       "path": "carrier-performance-review/",
-      "directory": "https://fullypowered.ai/workflow templates/carrier-performance-review/"
+      "directory": "https://fullypowered.ai/workflows/carrier-performance-review/"
     },
     {
       "id": "demand-and-supply-review",
@@ -17,7 +17,7 @@
       "version": "0.1.0",
       "summary": "The operations lead gets one monthly review from the demand plan, confirmed supply and stock: where confirmed and likely demand outrun supply, what that does to inventory, and the decision each function head has to make. Sales ambition stays separate and nothing is forecast beyond your figures.",
       "path": "demand-and-supply-review/",
-      "directory": "https://fullypowered.ai/workflow templates/demand-and-supply-review/"
+      "directory": "https://fullypowered.ai/workflows/demand-and-supply-review/"
     },
     {
       "id": "kit-component-availability-check",
@@ -25,7 +25,7 @@
       "version": "0.1.0",
       "summary": "The stock or online-store lead gets every kit beside the quantity actually sellable, the component that limits it, the stock records that disagree and the listings that promise more than can be built. Nothing is changed until a person decides.",
       "path": "kit-component-availability-check/",
-      "directory": "https://fullypowered.ai/workflow templates/kit-component-availability-check/"
+      "directory": "https://fullypowered.ai/workflows/kit-component-availability-check/"
     },
     {
       "id": "order-size-comparison",
@@ -33,7 +33,7 @@
       "version": "0.1.0",
       "summary": "When a supplier offers a bigger discounted order, the inventory planner gets each quantity costed the same way: yearly cost, cash tied up, months of cover and storage fit. The planner chooses the quantity; nothing is ordered.",
       "path": "order-size-comparison/",
-      "directory": "https://fullypowered.ai/workflow templates/order-size-comparison/"
+      "directory": "https://fullypowered.ai/workflows/order-size-comparison/"
     },
     {
       "id": "supplier-delivery-date-check",
@@ -41,7 +41,7 @@
       "version": "0.1.0",
       "summary": "The purchasing or operations person gets one comparison from the open purchase orders and the supplier replies: promised and revised dates side by side, the orders each change puts at risk, and the follow-ups still unanswered. No supplier is contacted.",
       "path": "supplier-delivery-date-check/",
-      "directory": "https://fullypowered.ai/workflow templates/supplier-delivery-date-check/"
+      "directory": "https://fullypowered.ai/workflows/supplier-delivery-date-check/"
     },
     {
       "id": "unshipped-order-review",
@@ -49,7 +49,7 @@
       "version": "0.1.0",
       "summary": "The fulfilment or customer-service lead gets one aged list of the orders not yet sent, whole or in part: how old each is, what is holding it, who owns the next step, and which orders have none. Nothing is released, moved or sent.",
       "path": "unshipped-order-review/",
-      "directory": "https://fullypowered.ai/workflow templates/unshipped-order-review/"
+      "directory": "https://fullypowered.ai/workflows/unshipped-order-review/"
     }
   ]
 }

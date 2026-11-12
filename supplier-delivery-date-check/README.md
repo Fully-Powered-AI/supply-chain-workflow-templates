@@ -2,7 +2,7 @@
 
 The purchasing or operations person gets one comparison from the open purchase orders and the supplier replies: promised and revised dates side by side, the orders each change puts at risk, and the follow-ups still unanswered. No supplier is contacted.
 
-*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/supplier-delivery-date-check/)*
+*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-delivery-date-check/)*
 
 ## The outcome
 
@@ -92,9 +92,9 @@ Testing in your environment means running it on a past week of open orders that 
 
 ## Related workflow templates
 
-- [Supplier risk alert brief](https://fullypowered.ai/workflow templates/supplier-risk-alert-brief/)
-- [Supplier performance scorecard](https://fullypowered.ai/workflow templates/supplier-performance-scorecard/)
-- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
+- [Supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/)
+- [Supplier performance scorecard](https://fullypowered.ai/workflows/supplier-performance-scorecard/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
 
 ## Make it yours
 

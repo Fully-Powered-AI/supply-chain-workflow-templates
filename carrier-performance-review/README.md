@@ -2,7 +2,7 @@
 
 The shipping lead gets a lane-by-lane comparison of carriers from the delivery export and the freight charges: on-time delivery, damage, tracking gaps and cost, each with the shipments behind it. A person decides whether to raise issues or change carrier.
 
-*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/carrier-performance-review/)*
+*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/carrier-performance-review/)*
 
 ## The outcome
 
@@ -82,8 +82,8 @@ Testing in your environment means running it on a past period your shipping lead
 
 ## Related workflow templates
 
-- [Supplier performance scorecard](https://fullypowered.ai/workflow templates/supplier-performance-scorecard/)
-- [Product landed cost worksheet](https://fullypowered.ai/workflow templates/product-landed-cost-worksheet/)
+- [Supplier performance scorecard](https://fullypowered.ai/workflows/supplier-performance-scorecard/)
+- [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/)
 
 ## Make it yours
 
