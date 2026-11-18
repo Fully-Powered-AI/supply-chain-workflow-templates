@@ -25,7 +25,7 @@
     "inventory-reorder-plan"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of supply chain and inventory work: open purchase order, supplier reply, follow-up and dependent-order exports with set column headers that stop on a mismatch; three grades of supplier reply, of which only a written confirmation or a call record fixes a date; the date relied on, the days moved and the past-due count; each dependent order tested against its ship-by date with the receiving days added; and the lists of unanswered follow-ups and of lines that need one."
+      "title": "FullyPowered AI's own design, written from its published map of supply chain and inventory work: open purchase order, supplier reply, follow-up and dependent-order exports with set column headers that stop on a mismatch; three grades of supplier reply, of which only a written confirmation or a call record fixes a date; the date relied on, the days moved and the past-due count; each dependent order tested against its ship-by date with the receiving days added; and the lists of unanswered follow-ups and of lines that need one."
     }
   ]
 }

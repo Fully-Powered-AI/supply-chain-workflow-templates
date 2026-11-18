@@ -25,7 +25,7 @@
     "slow-moving-stock-and-markdown-plan"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of supply chain and inventory work: demand split into confirmed orders, supported units with a stated basis and sales ambition; only confirmed supply counted; a running balance per item and period; shortfall, safety-stock and excess tests; capacity room; and one decision per function head, with nothing recommended."
+      "title": "FullyPowered AI's own design, written from its published map of supply chain and inventory work: demand split into confirmed orders, supported units with a stated basis and sales ambition; only confirmed supply counted; a running balance per item and period; shortfall, safety-stock and excess tests; capacity room; and one decision per function head, with nothing recommended."
     }
   ]
 }

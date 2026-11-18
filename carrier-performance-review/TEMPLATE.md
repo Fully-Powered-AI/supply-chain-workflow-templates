@@ -203,4 +203,4 @@ name the role that does it.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI from its own published map of the work. Tried on its invented example in Claude on 10 November 2026; the record of that run is published with it. After the first run the example's settings gained the first and last ship date and the role that runs the review, its Data checks line gained the two items the format requires, and the template was tried again on that version. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI from its own published map of the work. Tried on its invented example in Claude on 10 November 2026; the record of that run is published with it. After the first run the example's settings gained the first and last ship date and the role that runs the review, its Data checks line gained the two items the format requires, and the template was tried again on that version. Not yet tested in a client environment.

@@ -24,7 +24,7 @@
     "product-landed-cost-worksheet"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -40,7 +40,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own published map of supply chain and inventory work, which informed the method, the default column headers, the rules for comparing like with like and the worked example."
+      "title": "FullyPowered AI's own published map of supply chain and inventory work, which informed the method, the default column headers, the rules for comparing like with like and the worked example."
     }
   ]
 }

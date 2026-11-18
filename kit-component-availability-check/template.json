@@ -24,7 +24,7 @@
     "slow-moving-stock-and-markdown-plan"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -40,7 +40,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of supply chain and inventory work: default export headers for the kit definitions, the stock export, a second stock record and the listing export, with a stop on any mismatch; a sellable quantity worked out location by location from what is on hand less what is reserved; the limiting component named for each location, with ties listed; a lower figure relied on wherever two stock records disagree; listings compared with that figure; components shared by several kits checked against the stock they draw on together; statuses of unresolved, conflict, zero and sellable; and a list of listings for a person to correct, each with a blank approval line."
+      "title": "FullyPowered AI's own design, written from its published map of supply chain and inventory work: default export headers for the kit definitions, the stock export, a second stock record and the listing export, with a stop on any mismatch; a sellable quantity worked out location by location from what is on hand less what is reserved; the limiting component named for each location, with ties listed; a lower figure relied on wherever two stock records disagree; listings compared with that figure; components shared by several kits checked against the stock they draw on together; statuses of unresolved, conflict, zero and sellable; and a list of listings for a person to correct, each with a blank approval line."
     }
   ]
 }
