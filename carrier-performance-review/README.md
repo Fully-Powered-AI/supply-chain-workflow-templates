@@ -27,7 +27,7 @@ The shipping lead, logistics planner or an operations analyst starts it when the
 
 ## What they supply
 
-- **A shipment export** for the period: shipment, ship date, carrier, lane, service, promised date, delivery date, weight, whether it arrived damaged and whether it had a tracking gap.
+- **A shipment export** from your shipping or transport management system for the period: shipment, ship date, carrier, lane, service, promised date, delivery date, weight, whether it arrived damaged and whether it had a tracking gap.
 - **A freight charges export:** invoice, shipment, carrier, type of charge and amount.
 - **The settings:** the period, today's date, how many days late still counts as on time, the fewest shipments worth comparing, and the size of difference that is worth a decision.
 
