@@ -8,7 +8,7 @@ See how many kits you can actually sell, the limiting component and the listings
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/kit-component-availability-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-kit-component-availability-check&from=gh-kit-component-availability-check)*
@@ -41,7 +41,7 @@ Each file's column headers are checked first. If one does not match, the work st
 
 One page in a fixed order: the basis of the check, a summary, any problems found in the files, then each kit on its own line with the sellable quantity by location, the limiting component, the figure to rely on and how it compares with each listing. After that come the stock records that disagree, the components that more than one kit depends on, the listings a person should correct, and numbered questions. An empty section says "None." Every figure traces to a row in a supplied file, and the arithmetic is simple enough to recheck by hand.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -65,7 +65,7 @@ It is not a count reconciliation; for that, use [stock count reconciliation](htt
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words, from its own published map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026. That run was not blind, because the example's published output was on screen when it was made, and it found gaps in the instructions. They were fixed afterward and the template was run on the example again; the record of that second run is published with it. Only the success path has been run: the stop conditions and the acceptance tests have not. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words, from its own published map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026. That run was not blind, because the example's published output was on screen when it was made, and it found gaps in the instructions. They were fixed afterward and the template was run on the example again; the record of that second run is published with it. Only the success path has been run: the stop conditions and the acceptance tests have not. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on one or two kits your stock lead knows well, with hard cases written in advance: a component with no stock row, two records that disagree, a reservation larger than the stock, a listing above what can be built, and two kits that share a part. The stock lead checks every line against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-kit-component-availability-check&from=gh-kit-component-availability-check) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-kit-component-availability-check&from=gh-kit-component-availability-check) describes the record we keep.
 
@@ -73,13 +73,13 @@ Testing in your environment means running it on one or two kits your stock lead 
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

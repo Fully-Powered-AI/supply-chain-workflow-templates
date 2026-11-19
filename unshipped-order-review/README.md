@@ -8,7 +8,7 @@ Get one aged list of orders not yet sent: what is holding each, who owns the nex
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/unshipped-order-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review)*
@@ -46,7 +46,7 @@ Every age and count can be checked with a calendar and the exports. Each order s
 
 Nothing is sent. The workflow template releases no order, reassigns nothing and writes to no customer.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -71,7 +71,7 @@ It looks at orders, not support tickets; the review of old tickets is [stale tic
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude; the record is published with it. It has not yet been tested in a client environment.
+FullyPowered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its example on 10 November 2026 in Claude; the record is published with it. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on a past morning's orders that your fulfilment lead remembers well, plus hard cases written in advance with their expected results: a renamed column, an order marked shipped with an open line, an order with no lines, a hold with no next step, a hold older than the limit. The lead checks every age and every hold against the exports before anyone acts.
 
@@ -79,13 +79,13 @@ Testing in your environment means running it on a past morning's orders that you
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

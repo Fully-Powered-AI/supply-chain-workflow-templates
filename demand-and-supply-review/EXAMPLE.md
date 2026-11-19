@@ -1,6 +1,6 @@
-# Demand and supply review: an invented example
+# Demand and supply review: an example
 
-*Illustrative example with invented data.* The company, the items, the suppliers, the roles and every figure below are invented. "Company A" is an invented 35-person business that makes and sells garden planters. The operations lead runs the review; the sales head, the production lead, the purchasing lead and the finance lead each own a part of the response. First come the inputs the operations lead supplied, in full, then the review the workflow template returned.
+*Illustrative example with sample data.* The company, the items, the suppliers, the roles and every figure below are illustrative. "Company A" is an illustrative 35-person business that makes and sells garden planters. The operations lead runs the review; the sales head, the production lead, the purchasing lead and the finance lead each own a part of the response. First come the inputs the operations lead supplied, in full, then the review the workflow template returned.
 
 ## The inputs
 

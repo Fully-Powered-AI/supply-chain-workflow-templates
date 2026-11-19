@@ -1,10 +1,10 @@
-# Order size comparison: trial on the invented example
+# Order size comparison: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (its settings, offer, twelve months of demand and notes). No client data was used. The model did not write the template. It read the template and only the example's inputs, followed the fenced instruction block and the output format, and compared its result with the example's output afterwards.
+The inputs were the example in `public/example.md` (its settings, offer, twelve months of demand and notes). No client data was used. The model did not write the template. It read the template and only the example's inputs, followed the fenced instruction block and the output format, and compared its result with the example's output afterwards.
 
 ## What came out
 
@@ -62,7 +62,7 @@ Draft for the inventory planner's decision. The planner selects the quantity. No
 
 ## What was observed
 
-These observations describe the invented example as it stood at the time of the run. The example has since been edited: its shelf-life setting now reads "not given", its Not priced line and questions were cut back to what the notes support, its closing lines match the output format, and it shows the lower-demand cover figure for every option. The record of the output above is unchanged. The run also showed the cost per order as 45.00 with no currency sign, where the example shows $45.00; the output format now says amounts in the Settings line carry the currency sign.
+These observations describe the example as it stood at the time of the run. The example has since been edited: its shelf-life setting now reads "not given", its Not priced line and questions were cut back to what the notes support, its closing lines match the output format, and it shows the lower-demand cover figure for every option. The record of the output above is unchanged. The run also showed the cost per order as 45.00 with no currency sign, where the example shows $45.00; the output format now says amounts in the Settings line carry the currency sign.
 
 - Every required part was produced: header lines, a block for each of the three options, Not priced, Questions and the closing line. Nothing in the template made the run stop.
 - Every figure matched the example's output, including the yearly costs, per-unit costs, saving per $1,000, break-even rates, cover and storage lines. The figures also match the template's acceptance tests 1, 2 and 4.
@@ -79,4 +79,4 @@ These observations describe the invented example as it stood at the time of the 
   - The format puts "Cover" with a rate in brackets for the lower-demand case, and the example shows it only for the standard option. This run gave it for all three.
 - Nothing contradicted the inputs: no fact in this run's output was outside them. The example's output adds one small fact not in the inputs (the cost of finding space, and a possible commitment attached to the deadline).
 - Shortcoming: the template is long and its arithmetic has many steps, so the run depended on careful recomputation. The template says to recompute, and the figures held.
-- This was one run by one model on one invented example. It shows the template can be followed to the expected figures here. It does not show how the template behaves with real data, a seasonal item, a short history or a stop condition.
+- This was one run by one model on one example. It shows the template can be followed to the expected figures here. It does not show how the template behaves with real data, a seasonal item, a short history or a stop condition.

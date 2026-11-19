@@ -1,10 +1,10 @@
-# Kit component availability check: tried on its invented example
+# Kit component availability check: tried on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md`: the settings, the kit definitions, the stock export, the second stock record and the listing export. No client data was used. This is the record of the second run of the day. The first run, on the earlier instructions, found seven gaps; they are listed below with what was done about each.
+The inputs were the example in `public/example.md`: the settings, the kit definitions, the stock export, the second stock record and the listing export. No client data was used. This is the record of the second run of the day. The first run, on the earlier instructions, found seven gaps; they are listed below with what was done about each.
 
 ## How the run went, and one caveat
 

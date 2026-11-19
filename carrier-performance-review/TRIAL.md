@@ -1,4 +1,4 @@
-# Carrier performance review: trial on the invented example
+# Carrier performance review: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5). It revised this template after review; it did not write the first version.
@@ -6,7 +6,7 @@
 
 This is the second run. The first run, on the first version, was made the same day by a model that had not written the template. It found that the published example's Data checks line left out two items the format requires, that the example's settings gave no first and last ship date and no role that runs the review, and several places where the instructions left room to guess. After the first run, the example's settings were corrected, the Data checks line in the example was completed, and the template was changed as listed under "What changed since the first run". This record is of the second run, made on the revised version by the model that revised it, so it is not an independent run.
 
-The inputs were the invented example in `public/example.md` (Larkfield Candle Works, Carrier A and Carrier B, October 2026, 14 shipments, 28 charge lines). No client data was used. The assistant followed the revised instruction block and output format in `member/template.md`. The figures were recomputed with a short script over the two exports as a cross-check, and the output below was written from them and compared line by line with the published example.
+The inputs were the example in `public/example.md` (Larkfield Candle Works, Carrier A and Carrier B, October 2026, 14 shipments, 28 charge lines). No client data was used. The assistant followed the revised instruction block and output format in `member/template.md`. The figures were recomputed with a short script over the two exports as a cross-check, and the output below was written from them and compared line by line with the published example.
 
 ## What came out
 

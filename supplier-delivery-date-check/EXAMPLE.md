@@ -1,6 +1,6 @@
-# Supplier delivery date check: an invented example
+# Supplier delivery date check: an example
 
-*Illustrative example with invented data.* The company, the four suppliers, the purchase orders, the replies, the customer orders and every date below are invented, and the suppliers are named Supplier A to D. The company, called the Company here, assembles bicycles. Its buyer runs the check on Tuesday 10 November 2026 and the supply planner decides what to do. People are referred to by role.
+*Illustrative example with sample data.* The company, the four suppliers, the purchase orders, the replies, the customer orders and every date below are illustrative, and the suppliers are named Supplier A to D. The company, called the Company here, assembles bicycles. Its buyer runs the check on Tuesday 10 November 2026 and the supply planner decides what to do. People are referred to by role.
 
 The inputs come first, in full, so the template can be run on them. The comparison follows.
 

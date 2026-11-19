@@ -1,10 +1,10 @@
-# Demand and supply review: tried on its invented example
+# Demand and supply review: tried on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs are the invented example in `public/example.md` (Company A, four items, the settings and five files). No client data was used. This is the second recorded pass. An independent review of the first pass found two blocking faults and a list of gaps in the instruction block; the template, the example and the profile were then corrected, and the template was run again from its instruction block and output format. The model that made the corrections ran this pass by hand, without a script, and had already read the example's review, so this pass is not independent of it. Nothing was changed to make a figure agree.
+The inputs are the example in `public/example.md` (Company A, four items, the settings and five files). No client data was used. This is the second recorded pass. An independent review of the first pass found two blocking faults and a list of gaps in the instruction block; the template, the example and the profile were then corrected, and the template was run again from its instruction block and output format. The model that made the corrections ran this pass by hand, without a script, and had already read the example's review, so this pass is not independent of it. Nothing was changed to make a figure agree.
 
 ## Inputs used
 

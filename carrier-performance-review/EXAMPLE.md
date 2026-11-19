@@ -1,6 +1,6 @@
-# Carrier performance review: an invented example
+# Carrier performance review: an example
 
-*Illustrative example with invented data.* The company, the carriers, the lanes and every shipment and charge below are made up. Carrier A and Carrier B are invented names, not real carriers. The settings are an invented company's: review period October 2026, ship dates 2026-10-01 to 2026-10-31, today 2026-11-04, the review run by the logistics planner, grace days 0, fewest shipments to compare 4, and the default gaps worth a decision (10.0 points for on time, 5.0 points for damage, 10.0 points for tracking gaps, 10.0 percent for cost per kilogram). Currency is dollars. The company is Larkfield Candle Works, an invented company; the shipping lead is the invented Dana Ortiz.
+*Illustrative example with sample data.* The company, the carriers, the lanes and every shipment and charge below are made up. Carrier A and Carrier B are sample names, not real carriers. The settings are an illustrative company's: review period October 2026, ship dates 2026-10-01 to 2026-10-31, today 2026-11-04, the review run by the logistics planner, grace days 0, fewest shipments to compare 4, and the default gaps worth a decision (10.0 points for on time, 5.0 points for damage, 10.0 points for tracking gaps, 10.0 percent for cost per kilogram). Currency is dollars. The company is Larkfield Candle Works, an illustrative company; the shipping lead is the illustrative Dana Ortiz.
 
 ## What the shipping lead supplies
 

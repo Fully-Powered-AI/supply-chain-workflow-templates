@@ -8,7 +8,7 @@ Compare each quantity a supplier offers on yearly cost, cash tied up, months of 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/order-size-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison)*
@@ -43,7 +43,7 @@ One comparison in a fixed order: a header with your settings, the demand pattern
 
 The comparison states which options fit your storage and which has the lowest yearly cost. It does not say which to order. The planner chooses.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -69,7 +69,7 @@ It answers a different question from [inventory reorder plan](https://fullypower
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026, and every figure in its invented example was recomputed by hand. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template. It lists the edits made afterward, which have not been run again: the example's shelf-life setting now reads "not given", the example's closing lines were brought into line with the output format, the example now shows the lower-demand cover figure for every option and not only the standard one, and clarifications were added to the procedure and the output format (re-annualizing demand after a stock-out month, stock on hand at shelf-life end, when a listed deadline also needs a question, using the planner's expected months in the cover lines, what the Summary line counts and says when no storage limit is given, how the Ordering line is written when orders a year is not exact, the currency of the saving per 1,000 of extra cash, and the rounding of cost per unit). It has not yet been tested in a client environment, and it has not been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026, and every figure in its example was recomputed by hand. It was tried once on its example in Claude on 10 November 2026, and the record of that run is published with the template. It lists the edits made afterward, which have not been run again: the example's shelf-life setting now reads "not given", the example's closing lines were brought into line with the output format, the example now shows the lower-demand cover figure for every option and not only the standard one, and clarifications were added to the procedure and the output format (re-annualizing demand after a stock-out month, stock on hand at shelf-life end, when a listed deadline also needs a question, using the planner's expected months in the cover lines, what the Summary line counts and says when no storage limit is given, how the Ordering line is written when orders a year is not exact, the currency of the saving per 1,000 of extra cash, and the rounding of cost per unit). It has not yet been tested in a client environment, and it has not been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on two or three past supplier offers whose outcome you already know, plus cases written in advance with the expected behavior: a renamed column, an offer that does not fit the warehouse, a seasonal item, a short demand history, an item with a shelf life. The planner checks every figure against the offer and the exports before a quantity is selected. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison) shows the record.
 
@@ -77,13 +77,13 @@ Testing in your environment means running it on two or three past supplier offer
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

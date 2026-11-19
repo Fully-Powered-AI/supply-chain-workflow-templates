@@ -1,10 +1,10 @@
-# Supplier delivery date check: trial on the invented example
+# Supplier delivery date check: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in [example.md](example.md): the five input blocks (settings, open lines, supplier replies, follow-ups, dependent orders). No client data was used. The run was done by a model that did not write the template. It read the template and the inputs first, followed the fenced instruction block and the output format, produced the comparison, and only then read the published example's output and the reviewer checklist. The instruction block was read from the file as written; it was not pasted into a separate chat, so this trial does not test the pasting step.
+The inputs were the example in [example.md](example.md): the five input blocks (settings, open lines, supplier replies, follow-ups, dependent orders). No client data was used. The run was done by a model that did not write the template. It read the template and the inputs first, followed the fenced instruction block and the output format, produced the comparison, and only then read the published example's output and the reviewer checklist. The instruction block was read from the file as written; it was not pasted into a separate chat, so this trial does not test the pasting step.
 
 ## What came out
 
@@ -87,7 +87,7 @@ Where the instructions were ambiguous and I had to choose:
 6. **Wording of status in the groups.** The format shows "[status]" in the second group; I used the capitalised status words, which fits, but the format does not say.
 7. **Header layout.** The format block shows the header as plain lines, and the example shows bullets. Both are consistent with the template; the instruction block says "use the output format exactly", which favours plain lines.
 
-Shortcomings of this trial: it is one run, by one model, on one invented example, in one product; the instruction block was followed from the file and not pasted into a fresh chat with the files attached; and the checks that the template says must stop the work were not triggered. It is not a test in a client environment.
+Shortcomings of this trial: it is one run, by one model, on one example, in one product; the instruction block was followed from the file and not pasted into a fresh chat with the files attached; and the checks that the template says must stop the work were not triggered. It is not a test in a client environment.
 
 ## After the trial
 

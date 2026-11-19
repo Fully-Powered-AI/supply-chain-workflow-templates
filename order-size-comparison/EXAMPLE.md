@@ -1,6 +1,6 @@
-# Order size comparison: an invented example
+# Order size comparison: an example
 
-*Illustrative example with invented data.* The company, the supplier, the product, the prices, the demand and every date below are invented. The company, called the Company here, sells stainless water bottles online and buys them from Supplier A. Its inventory planner runs the comparison and the planner selects the quantity. People are referred to by role.
+*Illustrative example with sample data.* The company, the supplier, the product, the prices, the demand and every date below are illustrative. The company, called the Company here, sells stainless water bottles online and buys them from Supplier A. Its inventory planner runs the comparison and the planner selects the quantity. People are referred to by role.
 
 The inputs come first, in full, so the template can be run on them. The comparison follows.
 

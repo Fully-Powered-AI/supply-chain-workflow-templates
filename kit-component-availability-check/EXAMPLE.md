@@ -1,6 +1,6 @@
-# Kit component availability check: an invented example
+# Kit component availability check: an example
 
-*Illustrative example with invented data.* The business, the kits, the components, the quantities and every date below are invented. The business is an invented online gift shop, called the Shop here, with two places that can pack kits, Main and Annex. It keeps its stock in a stock system and also has a second stock record on its web shop platform, and it sells kits on its own web shop and on one marketplace. People are referred to by role.
+*Illustrative example with sample data.* The business, the kits, the components, the quantities and every date below are illustrative. The business is an illustrative online gift shop, called the Shop here, with two places that can pack kits, Main and Annex. It keeps its stock in a stock system and also has a second stock record on its web shop platform, and it sells kits on its own web shop and on one marketplace. People are referred to by role.
 
 The inputs come first, in full, so the template can be run on them. The check follows. Labels are set in bold and sections as lists here for reading; the template prints them as plain text.
 

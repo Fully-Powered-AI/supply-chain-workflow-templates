@@ -1,6 +1,6 @@
-# Unshipped order review: an invented example
+# Unshipped order review: an example
 
-*Illustrative example with invented data.* The business, the customers, the item codes, the order numbers, the quantities and every date below are invented. The business is an invented online homewares shop, called the Store here, with one warehouse. Its fulfilment lead asks for the daily order review on the morning of Tuesday 10 November 2026. Customers are shown as Customer A, Customer B and so on; people are referred to by role.
+*Illustrative example with sample data.* The business, the customers, the item codes, the order numbers, the quantities and every date below are illustrative. The business is an illustrative online homewares shop, called the Store here, with one warehouse. Its fulfilment lead asks for the daily order review on the morning of Tuesday 10 November 2026. Customers are shown as Customer A, Customer B and so on; people are referred to by role.
 
 The inputs come first, in full, so the template can be run on them. The review follows.
 

@@ -8,7 +8,7 @@ Compare promised and confirmed supplier dates on open purchase orders and see wh
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-delivery-date-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check)*
@@ -47,7 +47,7 @@ The page shows its working. Each order's late or spare days can be checked with 
 
 Nothing is sent. The workflow template does not write to a supplier, tell a customer or change an order date in your system.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -72,7 +72,7 @@ It is not a view of how reliable a supplier is over time, which is [supplier per
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, by a model that did not write it, and the record is published with it. It has not yet been tested in a client environment.
+FullyPowered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026, by a model that did not write it, and the record is published with it. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on a past week of open orders that your buyer remembers well, plus hard cases written in advance with their expected results: a renamed column, an estimate that is later than a confirmed date, a reply with no date, a line already past due, an order that waits on two lines. The buyer checks every date against the exports before anyone acts.
 
@@ -80,13 +80,13 @@ Testing in your environment means running it on a past week of open orders that 
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
