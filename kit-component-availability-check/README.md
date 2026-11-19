@@ -4,6 +4,8 @@ The stock or online-store lead gets every kit beside the quantity actually sella
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/kit-component-availability-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/kit-component-availability-check/?from=gh-kit-component-availability-check)
+
 ## The outcome
 
 A kit is only as available as its scarcest part. A gift box can show forty in stock on the store while one of its three components is down to six, or sit in the other warehouse, or already be promised to open orders. The total on the screen hides it until a customer has paid for a kit nobody can pack.

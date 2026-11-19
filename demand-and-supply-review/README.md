@@ -4,6 +4,8 @@ The operations lead gets one monthly review from the demand plan, confirmed supp
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/demand-and-supply-review/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/demand-and-supply-review/?from=gh-supply-chain-demand-and-supply-review)
+
 ## The outcome
 
 Once a month, sales, production, purchasing and finance sit down with the same page. It shows, item by item, the demand your supply plan cannot cover, and it shows that demand in three clearly separated layers: orders that are confirmed, units the sales head backs with a stated reason, and sales ambition that has neither. Only supply that has been confirmed counts. A request still waiting on a supplier is shown beside the gap and never subtracted from it.

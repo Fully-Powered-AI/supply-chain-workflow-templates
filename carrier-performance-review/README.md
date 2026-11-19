@@ -4,6 +4,8 @@ The shipping lead gets a lane-by-lane comparison of carriers from the delivery e
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/carrier-performance-review/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/carrier-performance-review/?from=gh-carrier-performance-review)
+
 ## The outcome
 
 When the carrier review comes round, the shipping lead has one page that sets the carriers side by side on each lane, using only what the exports show. For every lane and service, each carrier's on-time deliveries, damaged shipments, shipments with a tracking gap and freight cost per shipment and per kilogram sit next to one another, with the counts behind them.

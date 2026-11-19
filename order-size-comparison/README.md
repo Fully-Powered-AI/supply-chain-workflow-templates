@@ -4,6 +4,8 @@ When a supplier offers a bigger discounted order, the inventory planner gets eac
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/order-size-comparison/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/order-size-comparison/?from=gh-supply-chain-order-size-comparison)
+
 ## The outcome
 
 A discount on a larger order is easy to like and hard to judge. The unit price falls, but the stock sits on the shelf longer, the money is gone from the bank sooner, and the warehouse may not have room. This workflow template puts every quantity the supplier offered side by side, costed the same way, so the choice rests on figures rather than on the size of the discount.

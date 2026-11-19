@@ -2,9 +2,11 @@
 
 Know what is short before the customer does. These workflow templates take the checking and comparing that keeps goods moving and give an AI assistant a precise way to prepare it from your own exports, with the planner making every call on what to order, move or promise.
 
-This repository holds 6 workflow templates for supply chain, inventory and fulfilment leads. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
 
-These templates are examples and a starting point, not a complete list of what a team can do. FullyPowered AI can build any workflow for your company, including one that runs several steps, in a [Workflow Sprint or a scoped implementation](https://fullypowered.ai/pricing/).
+**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [More examples for supply chain and inventory teams](https://fullypowered.ai/functions/supply-chain-and-inventory/?from=gh-supply-chain) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-supply-chain)
+
+This repository holds 6 workflow templates for supply chain, inventory and fulfilment leads. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The workflow templates
 

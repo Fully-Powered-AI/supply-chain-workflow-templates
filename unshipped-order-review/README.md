@@ -4,6 +4,8 @@ The fulfilment or customer-service lead gets one aged list of the orders not yet
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/unshipped-order-review/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/unshipped-order-review/?from=gh-supply-chain-unshipped-order-review)
+
 ## The outcome
 
 Every morning there are orders that have not gone out, and most are fine: they came in an hour ago. The few that matter are the ones that have sat for days with nobody clearly responsible. This workflow template puts the whole set on one page, oldest first, so those few cannot hide among the rest.

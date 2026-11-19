@@ -4,6 +4,8 @@ The purchasing or operations person gets one comparison from the open purchase o
 
 *Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-delivery-date-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/supplier-delivery-date-check/?from=gh-supplier-delivery-date-check)
+
 ## The outcome
 
 A supplier says "a week later" on a call, a confirmation lands in someone's inbox, and three weeks on nobody can say which orders were promised for when. This workflow template puts every open purchase order line on one page: the date the supplier first promised, the latest date a supplier has actually confirmed, how many days it moved, and whether the line is already past due.
