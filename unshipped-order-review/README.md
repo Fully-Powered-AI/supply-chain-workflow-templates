@@ -1,10 +1,17 @@
 # Unshipped order review
 
-The fulfilment or customer-service lead gets one aged list of the orders not yet sent, whole or in part: how old each is, what is holding it, who owns the next step, and which orders have none. Nothing is released, moved or sent.
+Get one aged list of orders not yet sent: what is holding each, who owns the next step, and which have none. Nothing is released or sent.
 
-*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/unshipped-order-review/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Unshipped order review on our website](https://fullypowered.ai/workflows/unshipped-order-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/unshipped-order-review/?from=gh-supply-chain-unshipped-order-review)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/unshipped-order-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review)*
 
 ## The outcome
 
@@ -43,15 +50,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): the daily view of what is waiting to leave the warehouse.
-- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/): the answer to "where is my order" before the customer asks.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/): web and marketplace orders held for stock, payment or address checks.
-- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/): direct orders alongside wholesale ones, each with its own holds.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/): made-to-order and part-built orders waiting on parts or finishing.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when holds live in notes and memory rather than in a list.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when there are more open orders than anyone can check by eye each morning.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review): the daily view of what is waiting to leave the warehouse.
+- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review): the answer to "where is my order" before the customer asks.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review): web and marketplace orders held for stock, payment or address checks.
+- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review): direct orders alongside wholesale ones, each with its own holds.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review): made-to-order and part-built orders waiting on parts or finishing.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review): when holds live in notes and memory rather than in a list.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review): when there are more open orders than anyone can check by eye each morning.
 
-It looks at orders, not support tickets; the review of old tickets is [stale ticket sweep](https://fullypowered.ai/workflows/stale-ticket-sweep/). It does not judge a supplier's date, which is [supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/). Deciding what to reorder is [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/).
+It looks at orders, not support tickets; the review of old tickets is [stale ticket sweep](https://fullypowered.ai/workflows/stale-ticket-sweep/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review). It does not judge a supplier's date, which is [supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review). Deciding what to reorder is [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review).
 
 ## What has to change for your company
 
@@ -93,10 +100,10 @@ Testing in your environment means running it on a past morning's orders that you
 
 ## Related workflow templates
 
-- [Stale ticket sweep](https://fullypowered.ai/workflows/stale-ticket-sweep/)
+- [Stale ticket sweep](https://fullypowered.ai/workflows/stale-ticket-sweep/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review)
 - [Supplier delivery date check](../supplier-delivery-date-check/)
-- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-unshipped-order-review&from=gh-supply-chain-unshipped-order-review).

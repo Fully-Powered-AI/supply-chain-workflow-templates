@@ -1,10 +1,17 @@
 # Supplier delivery date check
 
-The purchasing or operations person gets one comparison from the open purchase orders and the supplier replies: promised and revised dates side by side, the orders each change puts at risk, and the follow-ups still unanswered. No supplier is contacted.
+Compare promised and confirmed supplier dates on open purchase orders and see which orders are at risk. A person decides whom to chase. Free template.
 
-*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-delivery-date-check/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Supplier delivery date check on our website](https://fullypowered.ai/workflows/supplier-delivery-date-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/supplier-delivery-date-check/?from=gh-supplier-delivery-date-check)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-delivery-date-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check)*
 
 ## The outcome
 
@@ -44,15 +51,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): inbound dates compared with what the warehouse and the order book depend on.
-- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/): a record of what each supplier said, when and how firmly, to take into the next call.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/): components and materials whose late arrival stops a build.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/): stock whose delay leaves customer orders waiting.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/): inbound goods where each dependent shipment has a cut-off.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when supplier dates live in inboxes and memory and the order book has outgrown them.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when more suppliers and more open orders make tracking by hand unreliable.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check): inbound dates compared with what the warehouse and the order book depend on.
+- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check): a record of what each supplier said, when and how firmly, to take into the next call.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check): components and materials whose late arrival stops a build.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check): stock whose delay leaves customer orders waiting.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check): inbound goods where each dependent shipment has a cut-off.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check): when supplier dates live in inboxes and memory and the order book has outgrown them.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check): when more suppliers and more open orders make tracking by hand unreliable.
 
-It is not a view of how reliable a supplier is over time, which is [supplier performance scorecard](https://fullypowered.ai/workflows/supplier-performance-scorecard/). It is not a brief on an event that threatens a supplier, which is [supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/). Deciding what to reorder is [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/).
+It is not a view of how reliable a supplier is over time, which is [supplier performance scorecard](https://fullypowered.ai/workflows/supplier-performance-scorecard/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check). It is not a brief on an event that threatens a supplier, which is [supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check). Deciding what to reorder is [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check).
 
 ## What has to change for your company
 
@@ -94,10 +101,10 @@ Testing in your environment means running it on a past week of open orders that 
 
 ## Related workflow templates
 
-- [Supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/)
-- [Supplier performance scorecard](https://fullypowered.ai/workflows/supplier-performance-scorecard/)
-- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
+- [Supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check)
+- [Supplier performance scorecard](https://fullypowered.ai/workflows/supplier-performance-scorecard/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check).

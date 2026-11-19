@@ -1,10 +1,17 @@
 # Order size comparison
 
-When a supplier offers a bigger discounted order, the inventory planner gets each quantity costed the same way: yearly cost, cash tied up, months of cover and storage fit. The planner chooses the quantity; nothing is ordered.
+Compare each quantity a supplier offers on yearly cost, cash tied up, months of cover and storage fit. The planner chooses; nothing is ordered.
 
-*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/order-size-comparison/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Order size comparison on our website](https://fullypowered.ai/workflows/order-size-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/order-size-comparison/?from=gh-supply-chain-order-size-comparison)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/order-size-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison)*
 
 ## The outcome
 
@@ -40,15 +47,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): the cost of holding stock set against the discount for buying more of it.
-- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/): a supplier's volume offer judged on your own costs before you accept it.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/): fast lines where a bulk price is tempting and shelf space is limited.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/): components and materials bought in pallets, with storage and cash both constrained.
-- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/): brands weighing a larger production or purchase run against the cash it ties up.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when volumes have grown into the supplier's next price break and cash still matters.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when a standard order size set years ago has never been tested against the offers now available.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison): the cost of holding stock set against the discount for buying more of it.
+- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison): a supplier's volume offer judged on your own costs before you accept it.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison): fast lines where a bulk price is tempting and shelf space is limited.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison): components and materials bought in pallets, with storage and cash both constrained.
+- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison): brands weighing a larger production or purchase run against the cash it ties up.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison): when volumes have grown into the supplier's next price break and cash still matters.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison): when a standard order size set years ago has never been tested against the offers now available.
 
-It answers a different question from [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/), which decides when to reorder and how much against current stock and lead times. It also differs from [vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/), which chooses between suppliers; here the supplier is fixed and the quantity is the question. Stock that a large order leaves sitting is dealt with in [slow-moving stock and markdown plan](https://fullypowered.ai/workflows/slow-moving-stock-and-markdown-plan/).
+It answers a different question from [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison), which decides when to reorder and how much against current stock and lead times. It also differs from [vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison), which chooses between suppliers; here the supplier is fixed and the quantity is the question. Stock that a large order leaves sitting is dealt with in [slow-moving stock and markdown plan](https://fullypowered.ai/workflows/slow-moving-stock-and-markdown-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison).
 
 ## What has to change for your company
 
@@ -64,7 +71,7 @@ It answers a different question from [inventory reorder plan](https://fullypower
 
 FullyPowered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026, and every figure in its invented example was recomputed by hand. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template. It lists the edits made afterward, which have not been run again: the example's shelf-life setting now reads "not given", the example's closing lines were brought into line with the output format, the example now shows the lower-demand cover figure for every option and not only the standard one, and clarifications were added to the procedure and the output format (re-annualizing demand after a stock-out month, stock on hand at shelf-life end, when a listed deadline also needs a question, using the planner's expected months in the cover lines, what the Summary line counts and says when no storage limit is given, how the Ordering line is written when orders a year is not exact, the currency of the saving per 1,000 of extra cash, and the rounding of cost per unit). It has not yet been tested in a client environment, and it has not been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past supplier offers whose outcome you already know, plus cases written in advance with the expected behavior: a renamed column, an offer that does not fit the warehouse, a seasonal item, a short demand history, an item with a shelf life. The planner checks every figure against the offer and the exports before a quantity is selected. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record.
+Testing in your environment means running it on two or three past supplier offers whose outcome you already know, plus cases written in advance with the expected behavior: a renamed column, an offer that does not fit the warehouse, a seasonal item, a short demand history, an item with a shelf life. The planner checks every figure against the offer and the exports before a quantity is selected. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison) shows the record.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -91,10 +98,10 @@ Testing in your environment means running it on two or three past supplier offer
 
 ## Related workflow templates
 
-- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
-- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
-- [Slow-moving stock and markdown plan](https://fullypowered.ai/workflows/slow-moving-stock-and-markdown-plan/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison)
+- [Slow-moving stock and markdown plan](https://fullypowered.ai/workflows/slow-moving-stock-and-markdown-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison).
