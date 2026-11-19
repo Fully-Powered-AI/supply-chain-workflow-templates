@@ -3,7 +3,7 @@
 Compare each quantity a supplier offers on yearly cost, cash tied up, months of cover and storage fit. The planner chooses; nothing is ordered.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Order size comparison on our website](https://fullypowered.ai/workflows/order-size-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Order size comparison on our website](https://fullypowered.ai/workflows/order-size-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-order-size-comparison&from=gh-supply-chain-order-size-comparison). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Quick start**
 

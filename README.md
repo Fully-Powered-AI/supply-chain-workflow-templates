@@ -5,7 +5,7 @@ FullyPowered Workflow Templates for supply chain and inventory teams turn the AI
 We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for supply chain and inventory teams](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-readme&from=gh-supply-chain-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-readme&from=gh-supply-chain-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for supply chain and inventory teams](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-readme&from=gh-supply-chain-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-readme&from=gh-supply-chain-readme). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Who this is for**
 
@@ -26,17 +26,27 @@ We are FullyPowered AI. We build AI workflows for companies, and these are the t
 1. **Check which orders a late supplier date puts at risk.** Copy the text below into ChatGPT, Claude, Copilot or Gemini. Paste in your open purchase order lines, the supplier replies you have logged and the customer orders that wait on them, then read what comes back. No sign-in here and nothing to download.
 
    ```text
-   You are helping a buyer compare supplier delivery dates. Use only the information I paste below. Do not guess a date and do not forecast.
+   You are helping a buyer compare supplier delivery dates. Use only the
+   information I paste below. Do not guess a date and do not forecast.
 
-   For each open purchase order line, show the date the supplier first promised, the latest date confirmed in writing or on a recorded call, and how many days it moved. Treat an informal estimate as a note beside the line, never as the confirmed date. If a reply has no date, say so. Mark lines already past due.
+   For each open purchase order line, show the date the supplier first
+   promised, the latest date confirmed in writing or on a recorded call,
+   and how many days it moved. Treat an informal estimate as a note beside
+   the line, never as the confirmed date. If a reply has no date, say so.
+   Mark lines already past due.
 
-   Then, for each customer order that waits on a line, add [my receiving days] days to the arrival date and compare it with the ship-by date. Say whether it is late or has spare days, and show the arithmetic.
+   Then, for each customer order that waits on a line, add [my receiving
+   days] days to the arrival date and compare it with the ship-by date. Say
+   whether it is late or has spare days, and show the arithmetic.
 
-   Finish with unanswered supplier questions and one numbered question for me per line that needs a decision.
+   Finish with unanswered supplier questions and one numbered question for
+   me per line that needs a decision.
 
-   Today is [date]. The person who decides is [role]. Nothing is sent, no supplier is contacted and no order is changed. I decide what to do.
+   Today is [date]. The person who decides is [role]. Nothing is sent, no
+   supplier is contacted and no order is changed. I decide what to do.
 
-   [Paste open order lines, supplier replies, follow-ups and customer orders here]
+   [Paste open order lines, supplier replies, follow-ups and customer
+   orders here]
    ```
 
 2. Read what comes back. It marks what it checked and what is left for you. What comes back, using invented figures:

@@ -3,7 +3,7 @@
 Compare promised and confirmed supplier dates on open purchase orders and see which orders are at risk. A person decides whom to chase. Free template.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Supplier delivery date check on our website](https://fullypowered.ai/workflows/supplier-delivery-date-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Supplier delivery date check on our website](https://fullypowered.ai/workflows/supplier-delivery-date-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=supply-chain-supplier-delivery-date-check&from=gh-supplier-delivery-date-check). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Quick start**
 
